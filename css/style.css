@@ -5699,7 +5699,7 @@ body._lock {
 .contacts__items {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: (1fr);
+  -ms-grid-rows: 1fr 1fr 1fr;
   grid-template-rows: repeat(3, 1fr);
 }
 @supports (max-width: clamp( 25.4375rem , 5.5625rem  +  22.0833333333vw , 32.0625rem )) {
