@@ -9189,7 +9189,7 @@ body._lock {
   position: relative;
   z-index: 2;
 }
-.init__text {
+.init__title {
   text-align: center;
   font-size: 28px;
   font-weight: 500;
@@ -9202,22 +9202,22 @@ body._lock {
   margin: 0 auto;
 }
 @supports (max-width: clamp( 22.4375rem , 12.5603632479rem  +  36.7521367521vw , 49.3125rem )) {
-  .init__text {
+  .init__title {
     max-width: clamp( 22.4375rem , 12.5603632479rem  +  36.7521367521vw , 49.3125rem );
   }
 }
 @supports not (max-width: clamp( 22.4375rem , 12.5603632479rem  +  36.7521367521vw , 49.3125rem )) {
-  .init__text {
+  .init__title {
     max-width: calc(22.4375rem + 26.875 * (100vw - 26.875rem) / 73.125);
   }
 }
 @supports (font-size: clamp( 1.0625rem , 0.8098290598rem  +  0.9401709402vw , 1.75rem )) {
-  .init__text {
+  .init__title {
     font-size: clamp( 1.0625rem , 0.8098290598rem  +  0.9401709402vw , 1.75rem );
   }
 }
 @supports not (font-size: clamp( 1.0625rem , 0.8098290598rem  +  0.9401709402vw , 1.75rem )) {
-  .init__text {
+  .init__title {
     font-size: calc(1.0625rem + 0.6875 * (100vw - 26.875rem) / 73.125);
   }
 }
